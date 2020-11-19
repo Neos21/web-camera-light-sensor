@@ -20,6 +20,11 @@ body, input {
   background: #000;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 h1, p, summary, ul {
   margin: 0 0 .5rem;
 }
@@ -204,7 +209,7 @@ function postToSlack(message) {
   </head>
   <body>
 
-<h1>Web Camera Light Sensor</h1>
+<h1><a href="https://github.com/Neos21/web-camera-light-sensor">Web Camera Light Sensor</a></h1>
 <p id="error"></p>
 <p><input id="url" type="text" placeholder="通知先の Slack Webhook URL を入力してください" value=""></p>
 <details open>
